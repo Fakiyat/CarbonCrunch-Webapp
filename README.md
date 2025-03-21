@@ -6,14 +6,6 @@ Carbon Crunch helps businesses track, visualize, and report , animated interface
 
 <h2>Dependencies</h2>
 Before running the application, install the following dependencies:
-bashCopy# Core dependencies
-npm install react react-dom
 
-# Routing
-npm install react-router-dom
 
-# 3D and Animation libraries
-npm install three gsap
-
-# UI utilities
-npm install classnames
+![Screenshot 2025-03-22 033809](https://github.com/user-attachments/assets/5ae4ed86-8318-47a8-b41f-48d287510d2a)
