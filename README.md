@@ -11,9 +11,6 @@
   A modern web application for sustainability reporting and carbon footprint tracking with interactive 3D visualizations.
 </p>
 
-<p align="center">
-  <img src="./public/screenshot.png" alt="Carbon Crunch Preview" width="800">
-</p>
 
 <h2>Overview</h2>
 
@@ -68,15 +65,15 @@ cd carbon-crunch</code></pre>
 <pre><code>carbon-crunch/
 ├── public/                  # Static files
 ├── src/
-│   ├── animations/          # Animation system files
 │   ├── components/          # React components
-│   │   ├── Navbar.js        # Navigation bar
-│   │   ├── Hero.js          # Hero section
-│   │   ├── ThreeJsCardSection.js  # 3D card animation 
+│   │   ├── animations/          # Animation system files
+│   │   ├── Navbar.jsx        # Navigation bar
+│   │   ├── Hero.jsx          # Hero section
+│   │   ├── ThreeJsCardSection.jsx  # 3D card animation 
 │   │   └── ...
 │   ├── styles/              # CSS styles
-│   ├── App.js               # Main application component
-│   └── index.js             # Entry point
+│   ├── App.jsx               # Main application component
+│   └── index.jsx           # Entry point
 └── package.json             # Project dependencies
 </code></pre>
 
