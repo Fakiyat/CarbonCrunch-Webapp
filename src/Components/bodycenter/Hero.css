@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: none;
+}
+/* Hero Section Styling */
+.hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(to bottom, #ffffff, #9dfd9d);
+  position: relative;
+}
+
+/* Hero Container */
+.hero-container {
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+}
+
+/* Top Bar with Image */
+.colored-bar {
+  display: inline-flex;
+  align-items: center;
+  background: black;
+  color: rgb(245, 191, 76);
+  padding: 9px 18px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.colored-bar img {
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+
+/* Hero Heading */
+.hero-heading {
+  font-size: 48px;
+  font-weight: 800;
+  color: #222;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+/* Highlighted Green Text */
+.highlight {
+  color: #00b020;
+  font-weight: bolder;
+}
+
+/* Hero Subheading */
+.hero-subheading {
+  font-size: 17px;
+  font-weight: 500;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.calculator-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  background: white;
+  border: 2px solid #00b020;
+  color: #00b020;
+}
+
+.calculator-btn:hover {
+  background: #00b020;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, 176, 32, 0.8);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .hero-heading {
+    font-size: 36px;
+  }
+
+  .hero-subheading {
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    flex-direction: column;
+  }
+
+  .calculator-btn,
+  .book-demo-btn {
+    width: 100%;
+  }
+}
