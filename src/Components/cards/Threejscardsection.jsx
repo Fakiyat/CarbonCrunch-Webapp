@@ -50,7 +50,7 @@ const ThreeJsCardSection = () => {
     const aspect =
       containerRef.current.clientWidth / containerRef.current.clientHeight;
     const camera = new THREE.PerspectiveCamera(60, aspect, 0.1, 1000);
-    camera.position.z = 800;
+    camera.position.z = 700;
     cameraRef.current = camera;
 
     // Setup renderer
@@ -272,8 +272,8 @@ const ThreeJsCardSection = () => {
     const particlesGeometry = new THREE.BufferGeometry();
     const particlesCount = 10000;
 
-    const positions = new Float32Array(particlesCount * 3);
-    const colors = new Float32Array(particlesCount * 1);
+    const positions = new Float32Array(particlesCount * 2);
+    const colors = new Float32Array(particlesCount * 2);
 
     for (let i = 0; i < particlesCount * 2; i += 2) {
       // Position particles in a large sphere
@@ -297,14 +297,15 @@ const ThreeJsCardSection = () => {
     );
     particlesGeometry.setAttribute(
       "color",
-      new THREE.BufferAttribute(colors, 2)
+      new THREE.BufferAttribute(colors, 3)
     );
 
     const particlesMaterial = new THREE.PointsMaterial({
-      size: 3,
+      size: 2,
       vertexColors: true,
       transparent: true,
-      opacity: 0.5,
+      opacity: 0.7,
+      color: 0x00b020,
     });
 
     const particles = new THREE.Points(particlesGeometry, particlesMaterial);
@@ -325,11 +326,11 @@ const ThreeJsCardSection = () => {
         ease: "power2.inOut",
       });
 
-      // gsap.to(card.rotation, {
-      //   y: distance * 0.3,
-      //   duration: 1,
-      //   ease: "power2.inOut",
-      // });
+      gsap.to(card.rotation, {
+        y: distance * 0.3,
+        duration: 1,
+        ease: "power2.inOut",
+      });
 
       // Scale down cards that are not in focus
       gsap.to(card.scale, {

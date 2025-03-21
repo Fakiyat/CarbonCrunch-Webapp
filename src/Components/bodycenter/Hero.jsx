@@ -1,8 +1,13 @@
 import React from "react";
 import "./Hero.css";
+import HeroBackground from "../animation/HeroBackground";
+
 const Hero = () => {
   return (
     <section className="hero-main">
+      {/* Add the animated background */}
+      <HeroBackground />
+
       <div className="hero-container">
         <div className="colored-bar">
           <img src="./src/images/Text.png" alt="hand-icon" />

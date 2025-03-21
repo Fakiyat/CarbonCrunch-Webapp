@@ -4,7 +4,7 @@ import Navbar from "./Components/navbar/Navbar";
 import Hero from "./Components/bodycenter/hero";
 // import Card from "./Components/cards/cardSection";
 import ThreeJsCardSection from "./Components/cards/Threejscardsection.jsx";
-import AnimatedBackground from "./Components/animation/threejsbackground.jsx";
+
 function App() {
   return (
     <div className="app">
