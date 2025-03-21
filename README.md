@@ -110,7 +110,7 @@ cd carbon-crunch</code></pre>
 <ul>
   <li><a href="https://threejs.org/">Three.js</a> for 3D rendering</li>
   <li><a href="https://greensock.com/gsap/">GSAP</a> for animations</li>
-  <li><a href="https://fonts.google.com/specimen/Inter">Inter</a> font family by Google Fonts</li>
+  <li><a href="https://fonts.google.com/specimen/Inter">Font Style</a>Different styles you can change it to whatever you like</li>
 </ul>
 
 
