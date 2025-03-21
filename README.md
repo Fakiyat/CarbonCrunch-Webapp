@@ -42,16 +42,15 @@ npm install classnames
 
 <ol>
   <li>Clone the repository:
-<pre><code>git clone https://github.com/yourusername/carbon-crunch.git
+<pre><code>git clone (https://github.com/Fakiyat/CarbonCrunch-Webapp.git)
 cd carbon-crunch</code></pre>
   </li>
   <li>Install dependencies:
 <pre><code>npm install</code></pre>
   </li>
   <li>Start the development server:
-<pre><code>npm start</code></pre>
+<pre><code>npm run dev</code></pre>
   </li>
-  <li>Open your browser and navigate to <code>http://localhost:3000</code></li>
 </ol>
 
 <h2>Features</h2>
@@ -80,6 +79,17 @@ cd carbon-crunch</code></pre>
 │   └── index.js             # Entry point
 └── package.json             # Project dependencies
 </code></pre>
+
+<h1>Features</h1>
+
+<ul>
+  <li>✨ <strong>Interactive 3D Card Animation</strong>: Visualize sustainability metrics with animated 3D cards</li>
+  <br/>
+  <li>📱 <strong>Responsive Design</strong>: Optimized for desktop, tablet, and mobile devices</li>
+  <li>🌊 <strong>Animated Background</strong>: Dynamic particle network that responds to user movement</li>
+  <li>🚀 <strong>Page Animations</strong>: Smooth transitions and scroll-triggered animations for enhanced UX</li>
+</ul>
+
 
 <h2>Browser Support</h2>
 
